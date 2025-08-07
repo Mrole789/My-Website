@@ -116,10 +116,10 @@ label{
 		font-size: x-small;
 	}
 	aside{
-		display: none;
+		display: ;
 	}
-	main{
-		height: 80vh;
+	main, aside{
+		height: auto;
 	}
 	main img{
 		display: ;
