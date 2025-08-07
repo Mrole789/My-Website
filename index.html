@@ -1,0 +1,123 @@
+<!Doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="mestyle.css" type="text/css" />
+<meta name="viewport" content="width=device-width, intial-scale=1.0" />
+<link rel="icon" href="assets/icons/icon.jpg" type="image/icon" />
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="10" />
+<title> My Webpage </title>
+</head>
+<style>
+.noshow{
+	display: none;
+}
+@media only screen and (max-width:714px){
+	main,aside {
+		height: auto;
+	}
+	main img{
+		display: ;
+		height: 22%;
+		width: 22%;
+		margin-left: 5%;
+	}
+	.noshow{
+		display: block;
+	}
+	.projects {
+		padding: 2rem;
+	}
+	.project-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		gap: 1.5rem;
+	}
+	.project-card {
+		border: 1px solid #ddd;
+		border-radius: 8px;
+		padding: 1rem;
+	}
+	.project-card img {
+		width: 100%;
+		border-radius: 4px;
+	}
+	.links a {
+		margin-right: 1rem;
+	}
+}
+</style>
+
+<body>
+<nav>
+<ul align="right"><b>
+<li> <a href="Contact.html"> Contact </a></li>
+<li> <a href="Projects.html"> Projects </a></li>
+<li> <a href="Resume.html"> Resume </a></li></b>
+</ul>
+</nav>
+<main>
+<table width="100%" height="100vh">
+<tr>
+<td width="40%"> <img src="assets/pic2.jpg" alt="My picture" style="border-radius:100%;"/> </td>
+<td width="60%"> <h2 style="font-weight: bolder;"><b> Chima Kennedy Elorm</b></h2>
+<p><h3> IT enthusiast, Aspiring Cybersecurity analyst and Python dev currently pursuing my third year of undergraduate studies in Information Technology.</h3></p>
+</td>
+</tr>
+</table>
+</main>
+
+<aside>
+<table width="100%" height="100vh">
+<tr>
+<td > </td>
+<td width="60%"><h6 id="itext"><b> ---------- Intro ----------</b>
+<h4><p> Born and raised in Accra, Ghana; I’ve always been fascinated by how technology shapes the world.
+From tinkering with my first computer to diving into coding, my curiosity for all things digital has driven me to pursue a career in IT. 
+Now, as a current IT student at the University of Professional Studies, Accra; I’m turning that passion into solutions - one line of code at a time.
+</p>
+<div id="ltext">Let’s build something great together. </div></h4></td>
+</tr>
+</table>
+<br/>
+
+<div class="noshow">
+<h3>Some of my code projects:</h3>
+<div class="projects" class="project-grid">
+	<div class="project-card">
+      <h3> Password-generator </h3>
+      <p> A password generator I made with python. </p>
+      <div class="links">
+        <a href="https://github.com/Mrole789/Password-Generator">GitHub</a>
+        <a href="#"></a>
+      </div>
+    </div>
+	<div class="project-card">
+      <h3> Caesar Cipher </h3>
+      <p> Code project for encrypting and decrypting messages. </p>
+      <div class="links">
+        <a href="https://github.com/Mrole789/Caesar-Cipher">GitHub</a>
+        <a href="#"></a>
+      </div>
+    </div>
+	<div class="project-card">
+      <h3>My Personal Website</h3>
+      <p>Built with HTML/CSS and hosted on Netlify.</p>
+      <div class="links">
+        <a href="https://github.com/Mrole789/My-Website">GitHub</a>
+        <a href="https://chimasweb.netlify.app/">Visit Site</a>
+      </div>
+    </div>
+</div>
+</div>	
+</aside>
+
+<footer>
+<ul>
+<li><a href="https://www.linkedin.com/in/kennedy-chima-9b53032b4"> <img src="assets/icons/linkedin.png" align="left" alt="linkedIn" width="20%" height="20%"/> </a></li>
+<li><a href="https://github.com/Mrole789"> <img src="assets/icons/github.png" align="left" alt="github" width="20%" height="20%"/> </a></li>
+<li><a href="mailto:kennedychima789@gmail.com?"> <img src="assets/icons/gmail.png" align="left" alt="mail" width="20%" height="20%"/> </a></li>
+</ul>
+</footer>
+</body>
+</html>
