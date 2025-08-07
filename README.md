@@ -12,3 +12,6 @@ personal-website/
 - mestyle.css         # Main stylesheet for all pages
 - README.md           # This documentation file
 - assets/             # folder for images/icons/docs
+
+### License  
+© 2025 Chima Kennedy. Licensed under [MIT](LICENSE).
