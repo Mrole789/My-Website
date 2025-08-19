@@ -13,5 +13,8 @@ personal-website/
 - README.md           # This documentation file
 - assets/             # folder for images/icons/docs
 
+On screens 714px wide or less:
+  - All content except 'resume.html' combine into a single page. (`index.html`)
+
 ### License  
 © 2025 Chima Kennedy. Licensed under [MIT](LICENSE).
