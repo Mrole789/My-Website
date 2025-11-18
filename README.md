@@ -14,7 +14,9 @@ personal-website/
 - assets/             # folder for images/icons/docs
 
 On screens 714px wide or less:
-  - All content except 'resume.html' combine into a single page. (`index.html`)
+  - All content except 'resume.html' combine into a single page. (`index.html`)  
+
+Entered form information sent to my mail using FormSubmit.co
 
 ### License  
 © 2025 Chima Kennedy. Licensed under [MIT](LICENSE).
